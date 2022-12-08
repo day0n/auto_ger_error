@@ -75,6 +75,7 @@ for i, line in enumerate(lines):
                 rows = str(lines[start_row:end_row])
                 # 判断是否出现了"error:"字符串
                 if "error:" in rows:
+                    #将输出输入到html文件中，注意此处是w模式，如果文件不存在会创建文件，存在会覆盖
                     with open("output.html", "w") as file:
                         print(NAME, file=file)
                         print('\n'.join(lines[a-12:a+4]), file=file)
