@@ -76,13 +76,14 @@ for i,line in enumerate(lines):
                     print(NAME)
                     print('\n'.join(lines[a-12:a+4]))
                     print('\n')
-                
+                    faild_num = faild_num+1
                     #判断faild数目是否正确
-                faild_num = faild_num+1
+                
                 break
         #test 单独测试某一个包需要在此加break，不然无限循环
         #break;       
 print('\n')
+print('编译错误包总共有：')
 print(faild_num)
 print('\n')
     
