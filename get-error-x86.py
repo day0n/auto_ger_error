@@ -97,10 +97,11 @@ for i, line in enumerate(lines):
                     #https://github.com/deepin-community/{NAME}
                     print('<br>', file=file)
                     print('<br>', file=file)
-                    print(f'<a href="https://github.com/deepin-community/{NAME}">{NAME} ---github </a>', file=file)
+                    print(
+                        f'<a href="https://gitee.com/src-openeuler/{NAME}">{NAME} ---gitee </a>', file=file)
                     print('<br>', file=file)
                     #print(f'<a href="https://build.tarsier-infra.com/public/build/home:revy:deepin-riscv-stage2/stage2/riscv64/{NAME}/_log">{NAME} --log </a>', file=file)
-                    print(f'<a href="https://build.tarsier-infra.com/public/build/openEuler:Mainline/standard/riscv64/{NAME}/_log">{NAME} --log </a>', file=file)
+                    print( f'<a href="https://build.tarsier-infra.com/public/build/openEuler:Mainline/standard_x86_64_gcc/x86_64/{NAME}/_log">{NAME} --log </a>', file=file)
                     print('<br>', file=file)
                     print('<br>', file=file)
                     print('<br>', file=file)
